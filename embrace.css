@@ -1,0 +1,486 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Black.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Regular.ttf);
+}
+html{
+    /*margin: auto;*/
+    margin-left: 0;
+}
+body{
+    margin: 0;
+}
+#landingPage{
+    display: inline-flex;
+    flex-direction: column;
+    font-family: roboto;
+    gap: 200px;
+    width: 100%;
+}
+/*nav*/
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    width: 915px;
+    justify-content: center;
+
+
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-self: stretch;
+    border-bottom: solid gray 0.5px;
+    margin-inline: auto;
+}
+nav li{
+    display: inline;
+    font-weight: bold;
+}
+#bookcall{
+    background-color: #3461FF;
+    border-radius: 70px;
+    width: 131px;
+    height: 52px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+/*heroSection*/
+#heroSection{
+    width: 70%;/*1140px*/
+    height: 941px;
+    margin-inline: auto; 
+    display: flex;
+    justify-content: space-around;
+
+}
+#heroSection img{
+    width: 40%;
+    height: 60%;
+}
+#email{
+    width: 239px;
+    height: 41px;
+    border-radius: 37px;
+    background-color: rgb(239, 237, 237);
+    border: solid 0.5px rgb(188, 188, 188);
+}
+::placeholder{
+    padding-left: 10px;
+}
+#button{
+    border-radius: 37px;
+    height: 46px;
+    width: 130px;
+    color: #fff;
+    border: #3461FF solid 0.5px;
+    background-color: #3461FF;
+}
+#grille-1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+#grille-1 h1{
+    font-size: 84px;
+    font-weight: bold;
+}
+/*partners*/
+#partners{
+    margin: auto;
+    width: 80%;/*1200px*/
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#partners p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+/*ourCommunity*/
+#ourCommunity{
+    width: 75%;/*1198px*/
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-template-rows: repeat(2, 1fr);
+    
+}
+#ourCommunity a{
+    margin-top: 180px;
+    text-decoration: none;
+    color: #3461FF;
+}
+#ourCommunity a svg{
+    margin-left: 5px;
+}
+#container h2{
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+#container p{
+    line-height: 25px;
+}
+/*howItWork*/
+#howItWorks{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;/*1200px*/
+}
+#frame11 h2{
+    font-size: 64px;
+    margin-top: 0px;
+}
+#frame11 p{
+    line-height: 35px;
+}
+#frame105{
+    width: 70%;
+}
+#rectangle160 img{
+    width: 80%;
+    padding-top: 50px;
+}
+#contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
+#grille1{
+    width: 487px;
+    padding-right: 123px;
+}
+#contain svg{
+    background-color: #3461FF;
+    border-radius: 10px;
+    padding: 30px;
+    width: 20px;
+    height: 20px;
+
+}
+/*ourWork*/
+#ourWork{
+    text-align: center;
+    margin: auto;
+}
+#ourWork h2{
+    font-size: 64px;
+    margin-bottom: 0px;
+}
+#ourWork p{
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+#frame67{
+    display: flex;
+    gap: 20px;
+}
+#frame67 img{
+    width: 32%;
+}
+#frame3{
+    background-color: #3461FF;
+    color: #fff;
+    border-radius: 30px;
+    width: 158px;
+    height: 40px;
+    margin: auto;
+    margin-top: 102px;
+}
+#frame3 p{
+    padding-block: 10px;
+}
+/*ctabanner*/
+#ctaBanner{
+    margin-block: 100px;
+}
+#ctabanner{
+    display: flex;
+    align-items: center;
+    width: 80%;/*1200px*/
+    height: 371px;
+    margin: auto;
+    justify-content: space-around;
+    background-image: url("CTA\ Banner\ \(2\).png");
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.butt{
+    margin-top: 0px;
+    margin-left: 25px;
+    width: 128px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+#ctabanner h3{
+    width: 50%;
+    font-family: roboto;
+    font-weight: 0px;
+    font-size: 74px;
+    text-align: center;
+}
+#frame116{
+    display: grid;
+    gap: 30px
+}
+#frame116 .pa{
+    width: 90%;
+    margin: auto;
+}
+/*ourTeam*/
+#ourTeam{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 88%;/*1390*/
+}
+#ourTeam img{
+    width: 40%;
+}
+#box{
+    width: 40%;
+    display: grid;
+    grid-template-rows: 30% 50% 20%;
+}
+.lmore{
+    width: 150px;
+    height: 40px;
+    border-radius: 69px;
+    background-color: #3461FF;
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;
+}
+.lmore p{
+    padding-block: 12px;
+    margin: 0px;
+}
+#box h3{
+    font-size: 64px;
+    font-family: roboto;
+    margin: 0%;
+
+}
+/*testimonial*/
+#frame78{
+    display: grid;
+    grid-template-columns: 70% 5% 5%;
+    align-items: end;
+    justify-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+#frame78 h3{
+    font-size: 64px;
+    padding-left: 45px;
+}
+#rigth{
+    width: 50px;
+    height: 50px;
+    margin-right: 150px;
+}
+#left{
+    margin-left: 50px;
+}
+#rigth :hover{
+    background-color: #3461FF;
+    border-radius: 50%;
+    color: #fff;
+    
+}
+#left :hover{
+    background-color: #3461FF;
+    border-radius: 50%;
+    color: #fff;
+}
+#frame79{
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    width: 1300px;
+}
+#frame17, #frame21, #frame22{
+    display: flex;
+    flex-direction: column;
+}
+#frame16{
+    display: flex;
+    gap: 30px;
+    align-items: normal;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#frame79 :hover{
+    background-color: #3461FF;
+    color: #fff;
+    border-radius: 30px;
+}
+#frame16 img{
+    width: 80px;
+    height: 80px;
+}
+#frame13{
+    display: flex;
+    flex-direction: column;
+}
+#frame13 p:first-child{
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#frame17 p:nth-child(2), #frame21 p:nth-child(2), #frame22 p:nth-child(2){
+    line-height: 22px;
+    width: 80%;
+    padding-left: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*ctaBanner2*/
+#ctabanner2{
+    background-image: url("CTA Banner 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20%;
+    margin: auto;
+    padding-right: 20px;
+    color: #fff;
+}
+.grille2{
+    padding-top: 300px;
+    padding-left: 110px;
+}
+.grille1{
+    padding-left: 150px;
+    padding-top: 200px;
+
+}
+.grille1 p:first-child{
+    font-size: 54px;
+}
+.grille1 p:nth-child(2){
+    font-size: 18px;
+    background-color: #3461FF;
+    border-radius: 30px;
+    width: 133px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+/*help*/
+#frame93{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    margin: auto;
+    padding-right: 50px;
+    justify-content: space-evenly;
+    width: 85%;/*1300*/
+    padding-left: 60px;
+}
+#frame87, #frame88, #frame89{
+    display: grid;
+    grid-template-columns: 90% 5%;
+    align-items: center;
+}
+#frame87 svg, #frame88 svg, #frame89 svg{
+    margin-right: 0px;
+    padding-left: 10px;
+}
+#frame87 p, #frame88 p, #frame89 p{
+    font-weight: bold;
+}
+#frame86 p:first-child{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0px;
+}
+#frame86 p:nth-child(2){
+    font-weight: 500px;
+    color: rgba(0, 0, 0, 0.60);
+    line-height: 35px;
+}
+#frame55 #email{
+    border: #fff;
+    margin-bottom: 20px;
+}
+#frame92 a{
+    color: #3461FF;
+}
+/*bottom*/
+#bottom{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 10% 50%;
+    justify-content: space-around;
+    width: 90%;/*1400px*/
+    margin-right: 100px;
+
+}
+#gri1{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+#contact{
+    border-radius: 30px;
+    background-color: #3461FF;
+    width: 123px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+#contact p{
+    margin: 0px;
+    padding-top: 10px;
+}
+#gri2{
+    display: flex;
+}
+#gri2 ul{
+    display: block;
+    width: 200px;
+    line-height: 56px;
+    font-weight: bold;
+}
+/*footer*/
+footer{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    background-color: #000;
+    color: #fff;
+    height: 119px;
+    width: 1400px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#frame98 p{
+    text-align: center;
+}
+#frame98{
+    display: flex;
+    justify-content: space-evenly;
+}
